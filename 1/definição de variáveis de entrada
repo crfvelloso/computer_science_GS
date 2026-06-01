@@ -1,0 +1,7 @@
+Foram definidas 5 variáveis para a missão espacial. O sistema utiliza um padrão binário onde o valor 0 indica uma condição normal e o valor 1 indica uma condição de risco ou falha.
+
+  A: FALHA DE COMUNICAÇÃO COM A NAVE.
+  B: TEMPERATURA INTERNA CRÍTICA.
+  C: BAIXO NIVEL DE ENERGIA.
+  D: FALHA EM MODULO OPERACIONAL.
+  E: PERDA DE ESTABILIDADE OU ORIENTAÇÃO.

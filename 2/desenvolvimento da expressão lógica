@@ -1,0 +1,11 @@
+Para acionar o alerta principal (X = 1), estabelecemos as seguintes regras baseadas nos riscos operacionais:
+
+1 - O ALERTA SOA SE HOUVER FALHA DE COMUNICAÇÃO E BAIXO NIVEL DE ENERGIA.
+2 - O ALERTA SOA SE HOUVER FALHA TEMPERATURA CRÍTICA E FALHA EM MÓDULO OPERACIONAL.
+3 - O ALERTA SOA SE HOUVER PERDA DE ESTABILIDADE E A COMUNICAÇÃO NÃO ESTIVER FALHANDO. (redundância de sensores)
+
+Expressão lógica completa:
+X = (A . C) + (A . C . B) + (B . D) + (Ā . E) + (B . D . E)
+
+Expressão lógica simplificada, aplicando os postulados da álgebra booleana:
+X = (A . C) + (B . D) + (Ā . E)

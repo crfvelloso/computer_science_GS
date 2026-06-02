@@ -1,0 +1,3 @@
+O sistema opera avaliando continuamente os sensores da nave. O alerta (X = 1) será adicionado no LED principal apenas quando a combinação das portas lógicas resultar em
+nível lógico alto nas saídas das portas AND. Isso ocorre de forma autônoma sempre que a nave registrar simultaneamente falta de comunicação com falta de energia, superaquecimento
+com defeito modular, ou perda de estabilidade enquanto a comunicação ainda estiver ativa.
